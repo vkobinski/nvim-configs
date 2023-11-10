@@ -53,6 +53,11 @@ return require('packer').startup(function(use)
   }
 
 
-
+  use {
+      'gelguy/wilder.nvim',
+      config = function()
+          -- config goes here
+      end,
+  }
 
 end)
